@@ -34,3 +34,6 @@ ImgCodeCheck 图片验证码识别API
 
   - 本地识别：使用以下命令可识别本地 `D:\codeimg.png` 里的验证码
     <br>`python3 deCodeImg.py -i D:\codeimg.png`
+
+
+    <br>`python3 deCodeImg.py -i codeimg.png`

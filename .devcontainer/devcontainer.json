@@ -1,0 +1,14 @@
+{
+    "name": "ImgCodeCheck Dev Container",
+    "image": "crpi-xk5ve8k2c0jpzepz.cn-hongkong.personal.cr.aliyuncs.com/leee-images/python:3.9.7-slim",
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+    ],
+    "postCreateCommand": "pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/",
+    "forwardPorts": [416],
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+    ],
+    "remoteUser": "root"
+}
