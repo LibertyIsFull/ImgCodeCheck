@@ -37,3 +37,5 @@ ImgCodeCheck 图片验证码识别API
 
 
     <br>`python3 deCodeImg.py -i codeimg.png`
+  - 容器内启动
+    <br>`python deCodeImg.py -m`
